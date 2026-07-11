@@ -60,7 +60,7 @@ export default function Home() {
           {/* MAPA OCUPANDO 100% DA LARGURA (Fica embaixo do bloco de texto) */}
           <div className="w-full h-48 rounded-xl overflow-hidden border border-zinc-200 shadow-sm mt-2">
             <iframe
-              src="COLE_AQUI_O_SEU_LINK_DO_MAPS"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.260825850614!2d-42.778869199999995!3d-5.061417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78e3b61491cbd21%3A0x18011bdad6e5c977!2sJosefa%20Poty%20Fisioterapia%20Neuroinfantil!5e0!3m2!1spt-BR!2sbr!4v1783806481162!5m2!1spt-BR!2sbr"
               className="w-full h-full border-0"
               allowFullScreen={true}
               loading="lazy"
