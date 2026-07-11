@@ -1,0 +1,81 @@
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image'; // ← Importamos o componente otimizado de imagem do Next.js
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-4 py-12">
+      {/* Card Principal */}
+      <div className="max-w-md w-full bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
+        
+        {/* Header do Card com a LOGO */}
+        <div className="bg-indigo-600 p-6 text-center text-white flex flex-col items-center justify-center gap-3">
+  
+        {/* Ajustamos aqui: fundo branco puro, borda sutil e sombra elegante */}
+        <div className="w-20 h-20 relative bg-white rounded-full flex items-center justify-center p-3 shadow-md border border-indigo-100">
+          <Image 
+            src="/logo.png" 
+            alt="Logo do Curso" 
+            width={70} 
+            height={70} 
+            className="object-contain"
+            />
+        </div>
+
+        <div>
+       
+        <h1 className="text-xl font-bold mt-1 max-w-xs mx-auto leading-tight">
+        Curso de Prescrição de Órteses na Neuropediatria
+        </h1>
+        
+        <p className="text-xs text-gray-400 text-center mt-2 mb-4 px-6">
+          Domine os critérios clínicos e práticos para a indicação, confecção e prescrição de órteses em pacientes infantis.
+        </p>
+        </div>
+      </div>
+
+        {/* FOTO DO CURSO */}
+        <div className="w-full h-48 relative bg-gray-100">
+          <Image 
+            src="/curso.png" 
+            alt="Imagem do Curso"
+            fill
+            className="object-cover"
+          />
+        </div>
+
+        {/* Conteúdo Inferior */}
+        <div className="p-6 space-y-5">
+          <div className="grid grid-cols-2 gap-3 text-xs bg-zinc-50 p-3 rounded-xl border border-zinc-100">
+            <div>
+              <p className="text-zinc-400 font-medium">📅 Quando?</p>
+              <p className="text-zinc-800 font-bold mt-0.5">20 Out 2026 • 19h</p>
+            </div>
+            <div>
+              <p className="text-zinc-400 font-medium">📍 Onde?</p>
+              <p className="text-zinc-800 font-bold mt-0.5">Teresina (Presencial)</p>
+            </div>
+          </div>
+
+          <div className="flex items-center justify-between border-t border-b border-zinc-100 py-3 px-1">
+            <span className="text-zinc-500 font-medium text-sm">Valor do investimento:</span>
+            <span className="text-zinc-900 font-black text-xl">R$ 2.000,00</span>
+          </div>
+
+          {/* Botão de Ação */}
+          <Link 
+            href="/inscricao" 
+            className="block w-full text-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-4 rounded-xl transition duration-200 shadow-md hover:shadow-lg active:scale-[0.98]"
+          >
+            Quero me Inscrever
+          </Link>
+        </div>
+
+        {/* Rodapé */}
+        <div className="bg-gray-50 px-6 py-4 border-t border-gray-100 text-center text-xs text-gray-400">
+          Vagas limitadas • Certificado incluso
+        </div>
+      </div>
+    </main>
+  );
+}    
