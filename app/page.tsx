@@ -32,18 +32,20 @@ export default function Home() {
         </div>
 
         {/* FOTO DO CURSO */}
-        <div className="w-full h-48 relative bg-gray-100">
+        <div className="w-full h-80 relative bg-white border-b border-gray-100">
           <Image 
             src="/curso.png" 
             alt="Imagem do Curso"
             fill
-            className="object-contain p-1"
+            className="object-cover"
             priority
           />
         </div>
 
         {/* Conteúdo Inferior */}
         <div className="p-6 space-y-5">
+          
+          {/* Bloco de Informações (Grid sem o mapa dentro) */}
           <div className="grid grid-cols-2 gap-3 text-xs bg-zinc-50 p-3 rounded-xl border border-zinc-100">
             <div>
               <p className="text-zinc-400 font-medium">📅 Quando?</p>
@@ -53,15 +55,23 @@ export default function Home() {
               <p className="text-zinc-400 font-medium">📍 Localização</p>
               <p className="text-zinc-800 font-bold mt-0.5">Teresina-PI (Presencial)</p>
             </div>
-            <div className="w-full h-40 rounded-xl overflow-hidden border border-zinc-200 shadow-sm mt-3">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.2608258818514!2d-42.78144412501843!3d-5.061416994915312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78e3b61491cbd21%3A0x18011bdad6e5c977!2sJosefa%20Poty%20Fisioterapia%20Neuroinfantil!5e0!3m2!1spt-BR!2sbr!4v1783805153732!5m2!1spt-BR!2sbr"
-                className="w-full h-full border-0"
-                allowFullScreen={true}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
+          </div>
+
+          {/* MAPA OCUPANDO 100% DA LARGURA (Fica embaixo do bloco de texto) */}
+          <div className="w-full h-48 rounded-xl overflow-hidden border border-zinc-200 shadow-sm mt-2">
+            <iframe
+              src="COLE_AQUI_O_SEU_LINK_DO_MAPS"
+              className="w-full h-full border-0"
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+
+          {/* Valor do Investimento */}
+          <div className="flex items-center justify-between border-t border-b border-zinc-100 py-3 px-1">
+            <span className="text-zinc-500 font-medium text-sm">Valor do investimento:</span>
+            <span className="text-zinc-900 font-black text-xl">R$ 2.000,00</span>
           </div>
 
           <div className="flex items-center justify-between border-t border-b border-zinc-100 py-3 px-1">
