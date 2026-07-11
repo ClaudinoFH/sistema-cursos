@@ -37,7 +37,8 @@ export default function Home() {
             src="/curso.png" 
             alt="Imagem do Curso"
             fill
-            className="object-cover"
+            className="object-contain p-1"
+            priority
           />
         </div>
 
