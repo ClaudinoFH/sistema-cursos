@@ -39,7 +39,7 @@ export default function Pagamento() {
   const inicializarMercadoPago = () => {
     if (window.MercadoPago) {
       // Inicializa o front-end com sua chave pública (pode usar essa de teste por enquanto)
-      const mp = new window.MercadoPago('APP_USR-3622792744391755-071109-79c3f088b06453bd928d25552f2e21b9-3535715248', {
+      const mp = new window.MercadoPago('TESTUSER3249176949512780305', {
         locale: 'pt-BR'
       });
       setMpInstance(mp);
