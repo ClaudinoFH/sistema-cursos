@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image'; // ← Importamos o componente otimizado de imagem do Next.js
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -10,29 +10,26 @@ export default function Home() {
         
         {/* Header do Card com a LOGO */}
         <div className="bg-indigo-600 p-6 text-center text-white flex flex-col items-center justify-center gap-3">
-  
-        {/* Ajustamos aqui: fundo branco puro, borda sutil e sombra elegante */}
-        <div className="w-20 h-20 relative bg-white rounded-full flex items-center justify-center p-3 shadow-md border border-indigo-100">
-          <Image 
-            src="/logo.png" 
-            alt="Logo do Curso" 
-            width={70} 
-            height={70} 
-            className="object-contain"
+          {/* Fundo branco puro da Logo */}
+          <div className="w-20 h-20 relative bg-white rounded-full flex items-center justify-center p-3 shadow-md border border-indigo-100">
+            <Image 
+              src="/logo.png" 
+              alt="Logo do Curso" 
+              width={70} 
+              height={70} 
+              className="object-contain"
             />
-        </div>
+          </div>
 
-        <div>
-       
-        <h1 className="text-xl font-bold mt-1 max-w-xs mx-auto leading-tight">
-        Curso de Prescrição de Órteses na Neuropediatria
-        </h1>
-        
-        <p className="text-xs text-gray-400 text-center mt-2 mb-4 px-6">
-          Domine os critérios clínicos e práticos para a indicação, confecção e prescrição de órteses em pacientes infantis.
-        </p>
+          <div>
+            <h1 className="text-xl font-bold mt-1 max-w-xs mx-auto leading-tight">
+              Curso de Prescrição de Órteses na Neuropediatria
+            </h1>
+            <p className="text-xs text-indigo-200 text-center mt-2 px-6">
+              Domine os critérios clínicos e práticos para a indicação, confecção e prescrição de órteses em pacientes infantis.
+            </p>
+          </div>
         </div>
-      </div>
 
         {/* FOTO DO CURSO */}
         <div className="w-full h-48 relative bg-gray-100">
@@ -78,4 +75,4 @@ export default function Home() {
       </div>
     </main>
   );
-}    
+}
