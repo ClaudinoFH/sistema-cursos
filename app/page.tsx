@@ -49,7 +49,7 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-3 text-xs bg-zinc-50 p-3 rounded-xl border border-zinc-100">
             <div>
               <p className="text-zinc-400 font-medium">📅 Quando?</p>
-              <p className="text-zinc-800 font-bold mt-0.5">20 Out 2026 • 19h</p>
+              <p className="text-zinc-800 font-bold mt-0.5">21 e 22 Nov 2026 • 8h às 12h e 14h às 18h</p>
             </div>
             <div>
               <p className="text-zinc-400 font-medium">📍 Localização</p>
@@ -69,11 +69,6 @@ export default function Home() {
           </div>
 
           {/* Valor do Investimento */}
-          <div className="flex items-center justify-between border-t border-b border-zinc-100 py-3 px-1">
-            <span className="text-zinc-500 font-medium text-sm">Valor do investimento:</span>
-            <span className="text-zinc-900 font-black text-xl">R$ 2.000,00</span>
-          </div>
-
           <div className="flex items-center justify-between border-t border-b border-zinc-100 py-3 px-1">
             <span className="text-zinc-500 font-medium text-sm">Valor do investimento:</span>
             <span className="text-zinc-900 font-black text-xl">R$ 2.000,00</span>
