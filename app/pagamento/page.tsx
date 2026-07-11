@@ -25,7 +25,7 @@ export default function Pagamento() {
         
         <div className="text-center space-y-1">
           <h1 className="text-xl font-extrabold text-slate-900">Forma de Pagamento</h1>
-          <p className="text-xs text-slate-400">Escolha como deseja pagar o investimento de R$ 350,00</p>
+          <p className="text-xs text-slate-400">Escolha como deseja pagar</p>
         </div>
 
         {/* Seletores de Método */}
@@ -90,7 +90,7 @@ export default function Pagamento() {
 
               {/* Link Direto do Checkout Pro */}
               <a 
-                href="COLE_AQUI_O_SEU_LINK_DO_MERCADO_PAGO" 
+                href="https://mpago.la/181xqxB" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block w-full text-center bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl transition duration-200 shadow-md hover:shadow-lg active:scale-[0.98]"
