@@ -26,7 +26,7 @@ export default function Home() {
               Curso de Prescrição de Órteses na Neuropediatria
             </h1>
             <p className="text-xs text-indigo-200 text-center mt-2 px-6">
-              Domine os critérios clínicos e práticos para a indicação, confecção e prescrição de órteses em pacientes infantis.
+              Domine os critérios clínicos e práticos para a indicação e prescrição de órteses em pacientes infantis.
             </p>
           </div>
         </div>
