@@ -49,7 +49,7 @@ export default function Home() {
               <p className="text-zinc-800 font-bold mt-0.5">20 Out 2026 • 19h</p>
             </div>
             <div>
-              <p className="text-zinc-400 font-medium">📍 Onde?</p>
+              <p className="text-zinc-400 font-medium">📍 Localização?</p>
               <p className="text-zinc-800 font-bold mt-0.5">Teresina (Presencial)</p>
             </div>
           </div>
