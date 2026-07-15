@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Curso de Prescrição de Órteses",
-  description: "Curso de Prescrição de Órteses na Neuropediatria.",
+  description: "Curso de Prescrição de Órteses de membros inferiores na Neuropediatria.",
 };
 
 export default function RootLayout({

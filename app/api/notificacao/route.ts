@@ -28,7 +28,7 @@ export async function POST(request: Request) {
     // Dispara o e-mail configurando o relatório completo
     const { data, error } = await resend.emails.send({
       from: 'Sistema de Inscrições <onboarding@resend.dev>',
-      to: 'claudinofilho11@gmail.com', // ← Substitua pelo seu e-mail real
+      to: 'potyjosefa@gmail.com', // ← Substitua pelo seu e-mail real
       subject: `🚨 Nova Inscrição + Comprovante: ${nome}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #eee; border-radius: 12px; color: #333;">
