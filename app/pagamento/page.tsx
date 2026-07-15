@@ -61,7 +61,7 @@ export default function Pagamento() {
             <div className="bg-slate-50 rounded-2xl p-5 border border-slate-100 text-center space-y-4">
               <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Código Copie e Cole PIX</p>
               <div className="bg-white p-3 rounded-xl border border-slate-200 text-xs font-mono select-all break-all text-left text-slate-600">
-                96a5698c-109b-4f00-9793996c381bcace
+                00020126580014BR.GOV.BCB.PIX013696a5698c-109b-4f00-9793-996c381bcace52040000530398654072000.005802BR5925CLAUDINO ALVES DE LIMA FI6008TERESINA62070503***63047D2C
               </div>
               <p className="text-xs text-amber-600 font-medium">👉 Após pagar, anexar o comprovante na próxima tela.</p>
               

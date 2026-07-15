@@ -23,7 +23,7 @@ export default function Home() {
 
           <div>
             <h1 className="text-xl font-bold mt-1 max-w-xs mx-auto leading-tight">
-              Curso de Prescrição de Órteses na Neuropediatria
+              Curso de Prescrição de Órteses de membros inferiores na Neuropediatria
             </h1>
             <p className="text-xs text-indigo-200 text-center mt-2 px-6">
               Domine os critérios clínicos e práticos para a indicação e prescrição de órteses em pacientes infantis.
