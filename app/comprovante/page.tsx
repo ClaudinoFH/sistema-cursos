@@ -67,7 +67,7 @@ export default function Comprovante() {
       <div className="max-w-md w-full bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
         
         {/* Header com botão Voltar */}
-        <div className="bg-indigo-600 p-6 text-center text-white relative">
+        <div className="bg-emerald-600 p-6 text-center text-white relative">
           <Link href="/pagamento" className="absolute left-4 top-6 text-sm opacity-80 hover:opacity-100 transition flex items-center gap-1">
             ← Voltar
           </Link>
@@ -81,7 +81,7 @@ export default function Comprovante() {
           </p>
 
           {/* Área de Upload */}
-          <label className="border-2 border-dashed border-gray-200 hover:border-indigo-400 rounded-2xl p-6 transition text-center bg-gray-50 flex flex-col items-center justify-center cursor-pointer group relative">
+          <label className="border-2 border-dashed border-gray-200 hover:border-emerald-400 rounded-2xl p-6 transition text-center bg-gray-50 flex flex-col items-center justify-center cursor-pointer group relative">
             <input 
               type="file" 
               accept="image/*,application/pdf"
@@ -94,7 +94,7 @@ export default function Comprovante() {
               <span className="text-3xl block group-hover:scale-110 transition duration-200">📤</span>
               {arquivo ? (
                 <div>
-                  <p className="text-sm font-semibold text-indigo-600 truncate max-w-xs mx-auto">
+                  <p className="text-sm font-semibold text-emerald-600 truncate max-w-xs mx-auto">
                     {arquivo.name}
                   </p>
                   <p className="text-xs text-gray-400 mt-1">
@@ -117,7 +117,7 @@ export default function Comprovante() {
             className={`w-full text-white font-semibold py-3 px-4 rounded-xl transition duration-200 shadow-md flex items-center justify-center gap-2 ${
               enviando || !arquivo 
                 ? 'bg-gray-400 cursor-not-allowed' 
-                : 'bg-indigo-600 hover:bg-indigo-700'
+                : 'bg-emerald-600 hover:bg-emerald-700'
             }`}
           >
             {enviando ? (

@@ -9,9 +9,9 @@ export default function Home() {
       <div className="max-w-md w-full bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
         
         {/* Header do Card com a LOGO */}
-        <div className="bg-indigo-600 p-6 text-center text-white flex flex-col items-center justify-center gap-3">
+        <div className="bg-emerald-600 p-6 text-center text-white flex flex-col items-center justify-center gap-3">
           {/* Fundo branco puro da Logo */}
-          <div className="w-20 h-20 relative bg-white rounded-full flex items-center justify-center p-3 shadow-md border border-indigo-100">
+          <div className="w-20 h-20 relative bg-white rounded-full flex items-center justify-center p-3 shadow-md border border-emerald-100">
             <Image 
               src="/logo.png" 
               alt="Logo do Curso" 
@@ -25,7 +25,7 @@ export default function Home() {
             <h1 className="text-xl font-bold mt-1 max-w-xs mx-auto leading-tight">
               Curso de Prescrição de Órteses de membros inferiores na Neuropediatria
             </h1>
-            <p className="text-xs text-indigo-200 text-center mt-2 px-6">
+            <p className="text-xs text-emerald-200 text-center mt-2 px-6">
               Domine os critérios clínicos e práticos para a indicação e prescrição de órteses de menbros inferiores em pacientes infantis.
             </p>
           </div>
@@ -79,7 +79,7 @@ export default function Home() {
           {/* Botão de Ação */}
           <Link 
             href="/inscricao" 
-            className="block w-full text-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-4 rounded-xl transition duration-200 shadow-md hover:shadow-lg active:scale-[0.98]"
+            className="block w-full text-center bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 px-4 rounded-xl transition duration-200 shadow-md hover:shadow-lg active:scale-[0.98]"
           >
             Quero me Inscrever
           </Link>

@@ -35,7 +35,7 @@ export default function Pagamento() {
             onClick={() => setMetodo('pix')}
             className={`py-3 rounded-xl font-bold text-sm transition flex flex-col items-center gap-1 border ${
               metodo === 'pix' 
-                ? 'border-indigo-600 bg-indigo-50/50 text-indigo-600' 
+                ? 'border-emerald-600 bg-emerald-50/50 text-emerald-600' 
                 : 'border-slate-200 text-slate-500 hover:bg-slate-50'
             }`}
           >
@@ -47,7 +47,7 @@ export default function Pagamento() {
             onClick={() => setMetodo('cartao')}
             className={`py-3 rounded-xl font-bold text-sm transition flex flex-col items-center gap-1 border ${
               metodo === 'cartao' 
-                ? 'border-indigo-600 bg-indigo-50/50 text-indigo-600' 
+                ? 'border-emerald-600 bg-emerald-50/50 text-emerald-600' 
                 : 'border-slate-200 text-slate-500 hover:bg-slate-50'
             }`}
           >
@@ -68,7 +68,7 @@ export default function Pagamento() {
               <button
                 type="submit"
                 disabled={carregando}
-                className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl transition duration-200 shadow-md flex items-center justify-center gap-2 disabled:opacity-50"
+                className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl transition duration-200 shadow-md flex items-center justify-center gap-2 disabled:opacity-50"
               >
                 {carregando ? (
                   <span className="animate-spin inline-block w-4 h-4 border-2 border-white border-t-transparent rounded-full" />
@@ -93,7 +93,7 @@ export default function Pagamento() {
                 href="https://mpago.la/181xqxB" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="block w-full text-center bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl transition duration-200 shadow-md hover:shadow-lg active:scale-[0.98]"
+                className="block w-full text-center bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl transition duration-200 shadow-md hover:shadow-lg active:scale-[0.98]"
               >
                 Ir para o Mercado Pago 🚀
               </a>

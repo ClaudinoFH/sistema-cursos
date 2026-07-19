@@ -129,7 +129,7 @@ export default function AdminDashboard() {
               <label className="block text-xs font-semibold text-gray-700 mb-1">Senha</label>
               <input type="password" required placeholder="••••••" className="w-full px-4 py-2 border border-gray-200 rounded-xl text-sm text-gray-800" value={senha} onChange={(e) => setSenha(e.target.value)} />
             </div>
-            <button type="submit" className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-4 rounded-xl shadow-md transition mt-2">
+            <button type="submit" className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 px-4 rounded-xl shadow-md transition mt-2">
               Acessar Painel
             </button>
           </form>
@@ -150,7 +150,7 @@ export default function AdminDashboard() {
             <p className="text-sm text-gray-500">Gerenciamento de inscritos em tempo real</p>
           </div>
           <div className="flex items-center gap-3 self-start md:self-auto">
-            <div className="text-xs bg-indigo-50 text-indigo-700 font-semibold px-3 py-1.5 rounded-full">
+            <div className="text-xs bg-emerald-50 text-emerald-700 font-semibold px-3 py-1.5 rounded-full">
               Modo Administrador
             </div>
             {/* BOTÃO SAIR */}
@@ -167,7 +167,7 @@ export default function AdminDashboard() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
             <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider">Total Inscritos</p>
-            <p className="text-3xl font-bold mt-2 text-indigo-600">{totalInscritos}</p>
+            <p className="text-3xl font-bold mt-2 text-emerald-600">{totalInscritos}</p>
           </div>
           <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
             <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider">Vagas Confirmadas</p>
@@ -211,7 +211,7 @@ export default function AdminDashboard() {
                           <p><strong>Natural:</strong> {aluno.naturalidade || 'N/A'}</p>
                           <p><strong>Endereço:</strong> {aluno.endereco || 'N/A'} (CEP: {aluno.cep || 'N/A'})</p>
                           <p><strong>Perfil:</strong> {aluno.concluiuFisio === 'sim' ? `Formado (${aluno.tempoFisioterapeuta})` : `Estudante (${aluno.periodoFaculdade})`}</p>
-                          <p className="text-indigo-600 font-medium"><strong>Segurança Órtese:</strong> {aluno.escalaSeguranca || '5'}/10</p>
+                          <p className="text-emerald-600 font-medium"><strong>Segurança Órtese:</strong> {aluno.escalaSeguranca || '5'}/10</p>
                           {aluno.justificativaSeguranca && <p className="italic text-gray-400 mt-1">" {aluno.justificativaSeguranca} "</p>}
                         </div>
                       </td>
