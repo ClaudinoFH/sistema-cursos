@@ -28,8 +28,8 @@ export default function Pagamento() {
           <Link href="/inscricao" className="absolute left-4 top-6 text-sm opacity-80 hover:opacity-100 transition flex items-center gap-1">
             ← Voltar
           </Link>
-          <h1 className="text-xl font-extrabold text-slate-900">Forma de Pagamento</h1>
-          <p className="text-xs text-slate-400">Escolha como deseja pagar</p>
+          <h1 className="text-2xl font-bold mt-2">Forma de Pagamento</h1>
+          <p className="text-xs opacity-90 mt-1">Escolha como deseja pagar</p>
         </div>
 
         {/* Seletores de Método */}
