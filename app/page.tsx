@@ -49,7 +49,7 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-3 text-xs bg-zinc-50 p-3 rounded-xl border border-zinc-100">
             <div>
               <p className="text-zinc-400 font-medium">📅 Data</p>
-              <p className="text-zinc-800 font-bold mt-0.5">21 e 22 Nov 2026</p>
+              <p className="text-zinc-800 font-bold mt-0.5">20, 21 e 22 Nov 2026</p>
               <p className="text-zinc-400 font-medium">📅 Horários</p>
               <p className="text-zinc-800 font-bold mt-0.5">8h às 12h e 14h às 18h</p>               
             </div>
