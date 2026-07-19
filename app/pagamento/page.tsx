@@ -21,8 +21,8 @@ export default function Pagamento() {
   };
 
   return (
-    <main className="min-h-screen bg-slate-50 flex flex-col items-center justify-center p-4 py-12">
-      <div className="max-w-md w-full bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100 p-6 space-y-6 text-slate-800">
+    <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-4 py-12">
+      <div className="max-w-xl w-full bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
         
         <div className="bg-emerald-600 p-6 text-center text-white relative">
           <Link href="/inscricao" className="absolute left-4 top-6 text-sm opacity-80 hover:opacity-100 transition flex items-center gap-1">
