@@ -26,7 +26,7 @@ export default function Home() {
               Curso de Prescrição de Órteses de membros inferiores na Neuropediatria
             </h1>
             <p className="text-xs text-emerald-200 text-center mt-2 px-6">
-              Domine os critérios clínicos e práticos para a indicação e prescrição de órteses de menbros inferiores em pacientes infantis.
+              Domine os critérios clínicos e práticos para a indicação e prescrição de órteses de membros inferiores em pacientes infantis.
             </p>
           </div>
         </div>
