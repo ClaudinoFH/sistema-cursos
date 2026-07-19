@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
 export default function Pagamento() {
@@ -24,6 +25,9 @@ export default function Pagamento() {
       <div className="max-w-md w-full bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100 p-6 space-y-6 text-slate-800">
         
         <div className="text-center space-y-1">
+          <Link href="/" className="absolute left-4 top-6 text-sm opacity-80 hover:opacity-100 transition flex items-center gap-1">
+            ← Voltar
+          </Link>
           <h1 className="text-xl font-extrabold text-slate-900">Forma de Pagamento</h1>
           <p className="text-xs text-slate-400">Escolha como deseja pagar</p>
         </div>
